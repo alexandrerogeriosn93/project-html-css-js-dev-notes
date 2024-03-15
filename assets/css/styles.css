@@ -8,3 +8,47 @@
 body {
   background-color: #202124;
 }
+
+header {
+  border-bottom: solid 1px #ccc;
+  padding: 1rem 2rem;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#search-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+#search-input {
+  background-color: #525356;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  font-weight: bold;
+  color: #ddd;
+  width: 400px;
+}
+
+#search-input::placeholder {
+  color: #ddd;
+}
+
+#export-notes {
+  background-color: #333;
+  border: solid 2px #fff;
+  border-radius: 4px;
+  color: #fff;
+  padding: 5px 12px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+#export-notes:hover {
+  background-color: #fff;
+  color: #333;
+}
